@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    background-color: whitesmoke;
+    font-family:sans-serif;
+    padding-bottom: -50px;
+    }
+h1{
+    font-family: Optima;
+    color: #363636;
+   margin-left: 60px; 
+}
+#menu ul{
+    margin: 0;
+    background-color: #302929;
+    list-style: none;
+    height: 35px;
+}
+#menu ul li{
+   display: inline;
+}
+#menu ul li a{
+    padding:  10px 10px; /*padding:altura e largura*/
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+#menu ul  li a:hover{ /*Botão muda de cor*/
+    color: #004d00;
+}
+li.right{
+    float: right;
+    padding: 8px ;
+    margin-right: 60px;
+}
+#btnBusca{
+background:#302929;
+position:relative;
+border:0px solid #222;
+color:#FFF; 
+margin:0 auto;
+padding:7px;
+border:0 none;
+font-size:11px;
+font-weight:bold;
+text-transform:uppercase;
+}
+#btnBusca:hover {
+background:#99cccc; 
+}
+input{
+    width: 300px;
+    height: 30px;
+}
+#btnSear{
+    background:#4169E1;
+    border: 0px solid #4169E1;
+       color: #FFF; 
+}
+#btnSear:hover{
+   background:#99cccc;  
+}
+
