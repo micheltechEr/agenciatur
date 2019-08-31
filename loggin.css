@@ -3,6 +3,10 @@ body{
 background-image: url("https://thewallpaper.co//wp-content/uploads/2016/01preview/hd-nature-wallpapers-place-sky-perfect-plants-1366x768.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
+    background-cover:cover;
+    position: fixed;
+    min-width:100%;
+      min-height:100%;
 }
 .container{
     width: 500px;
