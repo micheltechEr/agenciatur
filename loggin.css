@@ -11,7 +11,7 @@ background-image: url("https://images.pexels.com/photos/2440079/pexels-photo-244
       background-attachment: fixed;
 }
 .container{
-    width: 100%;
+    width: 27%;
     height: auto;
     text-align: center;
     background-color:rgba(0, 51, 102,0.5);
@@ -69,7 +69,7 @@ font-size:60px;
     }
     body{
         background-image:url("https://images.pexels.com/photos/2440079/pexels-photo-2440079.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
-    background-size: 500%;
+    background-size: 170%;
         width: 100%;
         height: 92%;
         border-radius: 4px;
@@ -81,7 +81,7 @@ font-size:60px;
     color:aquamarine;
     text-align: center;
 font-size:60px;
-        margin-top: 20px;
+        margin-top: -66px;
 }
     input[type="text"],input[type="password"]{
         align-content: center;
