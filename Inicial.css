@@ -1,13 +1,53 @@
 body{
- background-color: antiquewhite
+ background-color: whitesmoke;
+    font-family: sans-serif;
+    font
 }
 h1{
          font-family:Brush Script MT;
     font-size: 60px;
     color:darkorange;
-    text-align: center;
-             
+    text-align: center;    
     }
+#btnBusca {
+background:#302929;
+position:relative;
+border:0px solid #222;
+color:#FFF; 
+padding:7px;
+border:0 none;
+font-size:11px;
+font-weight:bold;
+text-transform:uppercase;
+}
+#textBox {
+    width:200px;
+    padding:4px 5px 5px;   
+    height:26px;
+    margin-left: 1009px;
+}
+#cabecalho ul{
+    margin: -10px;
+    background-color: #302929;
+    list-style: none;
+    height: 36px;
+    width: 1590px;
+}
+#cabecalho ul li{
+    display: inline;
+}
+ #cabecalho ul li a{
+    padding:  10px 11px; /*padding:altura e largura*/
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+     font-size: 17px;
+}
+li.rigth{
+    width: 280px;
+    height: 42px;
+    display: inline-block;
+}
 p{
     font-size: 20px;
 }
@@ -21,4 +61,29 @@ ul2{
 }
 a {
   font-size: 15px;
+}
+@media screen and (max-width: 910px) {
+    #cabecalho ul{
+        width: 1590px;
+    margin: -10px;
+    background-color: #302929;
+    list-style: none;
+    height: 45px;
+}
+    #cabecalho ul li a{
+        padding-top: 15px;
+        font-size:16px;
+    }
+    li.right{
+    display: inline-block;
+        margin-left: -20px;
+    }
+    #textBox {
+     padding: 10px;10px;10px;
+    width:200px;
+    padding:4px 5px 5px;
+    height:11px;
+    margin-left: 42px;
+}
+
 }
